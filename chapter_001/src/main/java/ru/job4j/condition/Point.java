@@ -18,9 +18,7 @@ public class Point {
     }
 
     public boolean is(int a, int b) {
-        if ((a * getX() + b) == getY()) {
-            return true;
-        }
-        return false;
+        return ((a * getX() + b) == getY());
     }
 }
+
